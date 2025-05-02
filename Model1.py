@@ -1,5 +1,4 @@
 
-
 from transformers import pipeline
 
 summarizer = pipeline("summarization", model="Falconsai/text_summarization")
@@ -12,4 +11,3 @@ ARTICLE = """
 
 #Can change max_length
 print(summarizer(ARTICLE, max_length=425, min_length=30, do_sample=False))
-
