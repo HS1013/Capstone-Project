@@ -1,5 +1,4 @@
 
-
 # Use a pipeline as a high-level helper
 from transformers import pipeline
 
@@ -11,4 +10,3 @@ from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 
 tokenizer = AutoTokenizer.from_pretrained("Falconsai/text_summarization")
 model = AutoModelForSeq2SeqLM.from_pretrained("Falconsai/text_summarization")
-
