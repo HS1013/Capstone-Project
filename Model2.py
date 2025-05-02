@@ -1,5 +1,4 @@
 
-
 from transformers import pipeline
 import re
 from typing import Dict, List, Tuple
@@ -105,4 +104,3 @@ if __name__ == "__main__":
     print("\n=== Detected PII Entities ===")
     for entity in result["pii_entities"]:
         print(f"{entity['entity_type']}: {entity['value']}")
-
